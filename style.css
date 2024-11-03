@@ -1,6 +1,6 @@
 @font-face {
   font-family: ShipporiAntique;
-  src: url("/assets/ShipporiAntique-Regular.ttf");
+  src: url("./assets/ShipporiAntique-Regular.ttf");
 }
 *{
   padding: 0px;
