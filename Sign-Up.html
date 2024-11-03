@@ -13,48 +13,43 @@
   <img src="assets/axville-SXGVliZGS7I-unsplash.jpg" alt="Gaming Image">
     <div class="sign-up-body">
       <header><h4>This is the Gaming service for you and your friends! <br>Sign up Below to get started!<br><br> You <em>know</em> you want to...</h4></header>
-        <form action="sign-up" method="post" class="user-form">
-          <div class="pairs">
-            <span class="user-data-r">
-              <label for="first-name">First name*</label>
-              <br>
-              <input type="text" required name="first-name" id="first-name">
-            </span>
-            <span class="user-data-l">
-              <label>Last name*</label>
-              <br>
-              <input type="text" required name="last-name" id="last-name">
-            </span>
+        <form action="#" method="post">
+          <div class="user-form">
+            <div class="form-input-col1">
+              <span class="input-pair">
+                <label for="first-name">First name*</label>
+                <input type="text" required name="first-name" id="first-name" placeholder="John">
+              </span>
+              <span class="input-pair">
+                <label for="user-email">Email*</label>
+                <input type="email" required name="user-email" id="user-email" placeholder="grannysmith@apple.com">
+              </span>
+              <span class="input-pair">
+                <label for="user-pass">Password*</label>
+                <input type="password" required maxlength="12" minlength="8" name="user-pass" id="user-pass">
+              </span>
+            </div>
+            <div class="form-input-col2">
+              <span class="input-pair">
+                <label>Last name*</label>
+                <input type="text" required name="last-name" id="last-name" placeholder="Doe">
+              </span>
+              <span class="input-pair">
+                <label for="user-phone">Phone Number</label>
+                <input type="tel" name="user-phone" id="user-phone" placeholder="+61 412 345 678">
+              </span>
+              <span class="input-pair">
+                <label for="confirm-pass">Confirm Password*</label>
+                <input type="password" required maxlength="12" minlength="8" name="confirm-pass" id="confirm-pass">
+              </span>
+            </div>
           </div>
-          <div class="pairs">
-            <span class="user-data-r">
-              <label for="user-email">Email*</label>
-              <br>
-              <input type="email" required name="user-email" id="user-email">
-            </span>
-            <span class="user-data-l">
-              <label for="user-phone">Phone Number</label>
-              <br>
-              <input type="tel" name="user-phone" id="user-phone">
-            </span>
-          </div>
-          <div class="pairs">
-            <span class="user-data-r">
-              <label for="user-pass">Password*</label>
-              <br>
-              <input type="password" required maxlength="12" minlength="8" name="user-pass" id="user-pass">
-            </span>
-            <span class="user-data-l">
-              <label for="confirm-pass">Confirm Password*</label>
-              <br>
-              <input type="password" required maxlength="12" minlength="8" name="confirm-pass" id="confirm-pass">
-            </span>
+          <div class="foot-section">
+            <button type="submit">Create Account</button>
+            <p class="login">Already have an account? <a href="login.html">Login</a></p>
           </div>
         </form>
-      <footer>
-        <button type="submit">CREATE ACCOUNT</button>
-        <p class="login">Already have an account? <a href="login.html">Login</a></p>
-      </footer>
+        
     </div>
 </body>
 </html>
