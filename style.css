@@ -49,6 +49,14 @@ header{
 h4{
   padding-left: 60px;
 }
+.copy-right{
+  position: relative;
+  right: 400px;
+  top: 510px;
+  color: white;
+  font-size: 10px;
+
+}
 .user-form{
   flex: 3 1 auto;
   background-color: #24344A;  
@@ -83,14 +91,22 @@ h4{
   border-radius: 5px;
   padding: 10px;
 }
-.error-messag{
+.error-message{
   display: none;
 }
-.passwords > input:invalid + .error-message{
-  display: block;
+.passwords > input:invalid{
   border: red solid;
   border-width: 0.1mm;
 }
+.passwords > input:invalid + .error-message{
+    display: block;
+    color: red;
+    font-size: 10px;
+}
+.p-word-message{
+  font-size: 10px;
+}
+
 .input-pair > input:focus{
   box-shadow: 2px 2px 4px 1px rgba(151, 151, 151, 0.548);
 }
