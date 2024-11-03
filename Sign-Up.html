@@ -19,14 +19,17 @@
               <span class="input-pair">
                 <label for="first-name">First name*</label>
                 <input type="text" required name="first-name" id="first-name" placeholder="John">
+                <span class="error-message">Please enter a valid email address.</span>
               </span>
               <span class="input-pair">
                 <label for="user-email">Email*</label>
                 <input type="email" required name="user-email" id="user-email" placeholder="grannysmith@apple.com">
+                <span class="error-message">Please enter a valid email address.</span>
               </span>
-              <span class="input-pair">
+              <span class="passwords">
                 <label for="user-pass">Password*</label>
-                <input type="password" required maxlength="12" minlength="8" name="user-pass" id="user-pass">
+                <input type="password" maxlength="12" minlength="8" name="user-pass" id="user-pass">
+                <span class="error-message">Please enter a valid password.</span>
               </span>
             </div>
             <div class="form-input-col2">
@@ -38,9 +41,10 @@
                 <label for="user-phone">Phone Number</label>
                 <input type="tel" name="user-phone" id="user-phone" placeholder="+61 412 345 678">
               </span>
-              <span class="input-pair">
+              <span class="passwords">
                 <label for="confirm-pass">Confirm Password*</label>
-                <input type="password" required maxlength="12" minlength="8" name="confirm-pass" id="confirm-pass">
+                <input type="password" maxlength="12" minlength="8" name="confirm-pass" id="confirm-pass">
+                <span class="error-message">The passwords do not match.</span>
               </span>
             </div>
           </div>

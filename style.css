@@ -71,7 +71,7 @@ h4{
   padding-right: 50px;
   flex-direction: column;
 }
-.input-pair{
+.input-pair, .passwords{
   display: flex;
   flex-direction: column;
 }
@@ -79,11 +79,15 @@ h4{
   margin-bottom: 5px;
   margin-top: 5px;
 }
-input{
+.input-pair > input, .passwords > input{
   border-radius: 5px;
   padding: 10px;
 }
-.password > input:invalid{
+.error-messag{
+  display: none;
+}
+.passwords > input:invalid + .error-message{
+  display: block;
   border: red solid;
   border-width: 0.1mm;
 }
