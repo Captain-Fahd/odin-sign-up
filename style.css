@@ -1,0 +1,97 @@
+@font-face {
+  font-family: ShipporiAntique;
+  src: url("/assets/ShipporiAntique-Regular.ttf");
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  --border-col: #566780;
+  border: 0px;
+}
+body, html{
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  background-color: var(--border-col);
+  font-family: ShipporiAntique;
+  border: 0%;
+  margin: 0%;
+  padding: 0%;
+}
+img{
+  width: 600px;
+  height: 100;
+}
+.layout{
+  display: flex;
+  height: fit-content;
+  width: 100%;
+
+}
+.sign-up-body{
+  width: 100%;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  margin: 0px;
+}
+header{
+  flex: 1 1 auto;
+  padding-top: 40px;
+  border-top: 0px;
+  margin-top: 0px;
+  font-size: 40px;
+  color: white;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-left: auto;
+}
+h4{
+  padding-left: 60px;
+}
+.user-form{
+  flex: 3 1 auto;
+  background-color: #24344A;  
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: #1f1e1e00 3px 3px 3px 3px;
+}
+.pairs{
+  color: white;
+  margin-left: 200px;
+  display: flex;
+  padding-right: 50px;
+}
+.user-data-r{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding-right: 100px;
+}
+.user-data-l{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+input{
+  border-radius: 30px;
+  padding: 5px;
+}
+footer{
+  margin-left: 220px;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+button{
+  color: white;
+  background-color: #24344A;
+  padding: 10px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
